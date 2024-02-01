@@ -330,6 +330,7 @@ img {
 .header-container {
   display: flex;
   justify-content: space-between;
+  /* max-width: 72px; */
 }
 
 .flex-list {
@@ -967,4 +968,21 @@ img {
 .img-div {
   position: relative;
   overflow: hidden;
+}
+
+/* hamburger menu */
+
+.btn-mobile-nav {
+  display: none;
+  cursor: pointer;
+}
+
+.icon-mobile-none {
+  height: 20px;
+  width: 20px;
+  color: #333;
+}
+
+.navigation {
+  display: none;
 }

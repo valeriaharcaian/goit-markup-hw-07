@@ -16,6 +16,14 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Portfolio</title>
   </head>
@@ -55,6 +63,81 @@
             </li>
           </ul>
         </address>
+        <button
+          class="btn-mobile-nav js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        </button>
+      </div>
+
+      <div class="navigation js-menu-container" id="mobile-menu">
+        <button class="close-btn js-close-menu">
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
+        <nav class="main-nav">
+          <ul class="nav-list list">
+            <li>
+              <a class="studio-link link" href="./index.html" title=""
+                >Studio</a
+              >
+            </li>
+            <li>
+              <a class="nav--link link" href="./portfolio.html" title=""
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a class="nav--link link" href="#" title="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="address-container">
+          <address class="mobile-menu-address">
+            <ul class="address-list list">
+              <li>
+                <a class="number" href="tel:+110001111111" title=""
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li>
+                <a class="e-mail" href="mailto:info@devstudio.com" title=""
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="social-media-section-four">
+            <li class="insta-tweet-fb-li">
+              <a class="social-media-link" href="social-media-link">
+                <svg class="svg-social" width="16" height="16">
+                  <use href="./images/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="insta-tweet-fb-li">
+              <a class="social-media-link" href="social-media-link">
+                <svg class="svg-social" width="16" height="16">
+                  <use href="./images/icons.svg#twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="insta-tweet-fb-li">
+              <a class="social-media-link" href="social-media-link">
+                <svg class="svg-social" width="16" height="16">
+                  <use href="./images/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="insta-tweet-fb-li">
+              <a class="social-media-link" href="social-media-link">
+                <svg class="svg-social" width="16" height="16">
+                  <use href="./images/icons.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
       </div>
     </header>
     <main>
@@ -324,5 +407,12 @@
         </div>
       </div>
     </footer>
+    <script defer src="./js/mobile-menu.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
