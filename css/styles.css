@@ -1683,9 +1683,9 @@ img {
 }
 
 @media (min-width: 768px) and (max-width: 1158px) {
-  /* .container {
+  .container {
     overflow-x: hidden;
-  } */
+  }
 
   .close-btn .customers-section {
     padding-bottom: 120px;
