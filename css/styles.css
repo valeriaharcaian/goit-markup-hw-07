@@ -1544,7 +1544,7 @@ img {
     font-size: 36px;
     line-height: 40px;
     letter-spacing: 0.72px;
-    text-align: start;
+    text-align: center;
   }
 
   .what-are-we-doing {
@@ -1558,14 +1558,17 @@ img {
 
   .customers-list {
     flex-wrap: wrap;
-    margin-left: 80px;
+    /* margin-left: 80px; */
+    align-items: center;
+    justify-content: center;
   }
 
   .social-m-footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-right: 80px;
+    /* padding-right: 80px; */
+    align-items: center;
   }
 
   .subscribe-section {
@@ -1579,6 +1582,9 @@ img {
 
   .s-m-list {
     margin-left: -100px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
   }
 
   .s-m-pharagraph {
@@ -1596,5 +1602,42 @@ img {
 
   .l-tablet-size {
     margin-left: -100px;
+  }
+}
+
+@media screen and (max-width: 1158px) {
+  .container {
+    overflow-x: hidden;
+  }
+
+  .customers-section {
+    padding-bottom: 120px;
+  }
+
+  .social-m-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #footerdescription {
+    width: 264px;
+  }
+
+  .second-child-footer {
+    flex-direction: column;
+  }
+
+  .subscribe-section {
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+
+  .subscribe-button {
+    max-width: 165px;
+  }
+
+  .s-m-container {
+    margin-left: 40px;
   }
 }
