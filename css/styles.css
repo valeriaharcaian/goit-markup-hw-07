@@ -1299,9 +1299,9 @@ img {
     letter-spacing: 0.32px;
   }
 
-  .logost {
+  /* .logost {
     margin-left: 80px;
-  }
+  } */
 
   .s-m-pharagraph {
     margin-top: 70px;
@@ -1429,9 +1429,9 @@ img {
     overflow-x: hidden;
   }
 
-  .header-box-shadow {
+  /* .header-box-shadow {
     max-width: 72px;
-  }
+  } */
 
   .btn-mobile-nav {
     display: block;
@@ -1475,7 +1475,7 @@ img {
   } */
 
   .ad-li {
-    display: block;
+    display: none;
   }
 
   .header-container {
@@ -1483,9 +1483,9 @@ img {
     position: relative;
   }
 
-  .flex-list {
+  /* .flex-list {
     margin-left: -100px;
-  }
+  } */
 
   .navigation {
     position: fixed;
