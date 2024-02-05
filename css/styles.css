@@ -1787,11 +1787,5 @@ img {
     flex-wrap: nowrap;
     gap: 24px;
     align-items: center;
-    d
-  }
-
-  .client-one {
-    width: calc((100% -120px) 2);
-    margin: 0 auto;
   }
 }
