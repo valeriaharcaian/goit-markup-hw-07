@@ -274,7 +274,7 @@ img {
 .link {
   text-decoration: none;
   display: inline-block;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
 }
 
 .link:hover .img-div-pharagraph {
@@ -1787,5 +1787,9 @@ img {
     flex-wrap: nowrap;
     gap: 24px;
     align-items: center;
+  }
+
+  .span-class {
+    margin-right: 0;
   }
 }
