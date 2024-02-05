@@ -1429,8 +1429,20 @@ img {
     overflow-x: hidden;
   }
 
+  .header-box-shadow {
+    max-width: 72px;
+  }
+
   .btn-mobile-nav {
-    display: none;
+    display: block;
+    position: fixed;
+    right: 16px;
+    background-color: transparent;
+    border: none;
+    width: 32px;
+    height: 22px;
+    flex-shrink: 0;
+    margin-top: 20px;
   }
 
   .top-line {
@@ -1526,10 +1538,11 @@ img {
   }
 
   .w-list {
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     gap: 24px;
     display: flex;
+    align-items: center;
   }
 
   .first-row {
