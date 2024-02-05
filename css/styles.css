@@ -1102,9 +1102,9 @@ img {
     margin: 0 auto;
   }
 
-  /* .container {
+  .container {
     overflow-x: hidden;
-  } */
+  }
 
   .navigation {
     position: fixed;
@@ -1429,9 +1429,9 @@ img {
 }
 /* **************************************** */
 @media screen and (max-width: 768px) {
-  /* .container {
+  .container {
     overflow-x: hidden;
-  } */
+  }
 
   /* .header-box-shadow {
     max-width: 72px;
@@ -1761,9 +1761,9 @@ img {
 }
 
 @media screen and (min-width: 1158px) {
-  /* .container {
+  .container {
     overflow-x: hidden;
-  } */
+  }
 
   .third-section {
     display: block;
