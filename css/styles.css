@@ -349,6 +349,7 @@ img {
 
 .topdiv {
   height: 72px;
+  margin-bottom: 10px;
 }
 
 .flex-list {
@@ -1758,12 +1759,24 @@ img {
   .icon-div-section-two {
     display: none;
   }
+  .activ-element::after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 4px;
+    top: 30px;
+    border-radius: 2px;
+    background: var(--brand-color-ocean);
+    border: 1px solid var(--brand-color-ocean);
+    position: relative;
+    left: 0;
+  }
 }
 
 @media screen and (min-width: 1158px) {
-  .container {
+  /* .container {
     overflow-x: hidden;
-  }
+  } */
 
   .third-section {
     display: block;
