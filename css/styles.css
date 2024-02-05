@@ -343,6 +343,12 @@ img {
 .header-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  height: 72px;
+}
+
+.topdiv {
+  height: 72px;
 }
 
 .flex-list {
@@ -397,13 +403,12 @@ img {
   content: "";
   width: 100%;
   height: 4px;
-  top: 44px;
+  top: 30px;
   border-radius: 2px;
   background: var(--brand-color-ocean);
   border: 1px solid var(--brand-color-ocean);
   position: relative;
   left: 0;
-  top: 67px;
 }
 
 .contact {
@@ -1594,8 +1599,6 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 24px;
-    display: flex;
-    align-items: center;
   }
 
   .first-row {
@@ -1610,7 +1613,7 @@ img {
     font-size: 36px;
     line-height: 40px;
     letter-spacing: 0.72px;
-    text-align: center;
+    text-align: start;
   }
 
   .what-are-we-doing {
@@ -1679,7 +1682,7 @@ img {
   }
 }
 
-@media screen and (max-width: 1158px) {
+@media (min-width: 768px) and (max-width: 1158px) {
   .container {
     overflow-x: hidden;
   }
@@ -1691,7 +1694,11 @@ img {
   .social-m-footer {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+  }
+
+  .div-element-footer {
+    margin-left: 40px;
   }
 
   #footerdescription {
@@ -1702,16 +1709,89 @@ img {
     flex-direction: column;
   }
 
-  .subscribe-section {
+  /* .subscribe-section {
     margin-top: 20px;
     margin-left: 40px;
   }
 
   .subscribe-button {
     max-width: 165px;
+  } */
+
+  .ad-li {
+    display: block;
+  }
+
+  .w-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .first-row {
+    padding: 96px 0;
+  }
+
+  .position {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .title-list {
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-align: start;
+  }
+  .third-section {
+    display: none;
+  }
+
+  .what-are-we-doing {
+    margin-bottom: 72px;
+  }
+
+  .last-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .icon-div-section-two {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    overflow-x: hidden;
+  }
+
+  .third-section {
+    display: block;
+    background-color: #fff;
+    padding-bottom: 120px;
+  }
+
+  .w-list {
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    gap: 24px;
+    display: flex;
+    align-items: center;
   }
 
   .s-m-container {
-    margin-left: 40px;
+    margin-right: 80px;
+  }
+
+  .customers-list {
+    flex-wrap: nowrap;
+    gap: 24px;
+    align-items: center;
+    d
+  }
+
+  .client-one {
+    width: calc((100% -120px) 2);
+    margin: 0 auto;
   }
 }
